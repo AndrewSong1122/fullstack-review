@@ -26,6 +26,7 @@ class App extends React.Component {
       <h1>Github Fetcher</h1>
       <RepoList repos={this.state.repos}/>
       <Search onSearch={this.search.bind(this)}/>
+      {/* <Search onSearch={this.search}/> */}
     </div>)
   }
 }
